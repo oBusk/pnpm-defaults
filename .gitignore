@@ -1,2 +1,3 @@
 pnpmfile.cjs
 esm_loader.mjs
+node_modules/
