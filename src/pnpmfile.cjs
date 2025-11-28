@@ -2,7 +2,7 @@ const esmNodePath = require('@pnpm/plugin-esm-node-path')
 
 module.exports = {
   hooks: {
-    updateConfig (config) {
+    updateConfig(config) {
       Object.assign(config, {
         enableGlobalVirtualStore: true,
         enablePrePostScripts: false,
@@ -15,6 +15,6 @@ module.exports = {
         config.hoistPattern = []
       }
       return esmNodePath.hooks.updateConfig(config)
-    }
-  }
+    },
+  },
 }
