@@ -4,6 +4,7 @@
 
 ## What it changes
 
+- Sets ignoreWorkspaceRootCheck to `true`
 - Sets [minimumReleaseAge](https://pnpm.io/settings#minimumreleaseage) to `4320` (72 hours)
 - Sets [trustPolicy](https://pnpm.io/settings#trustpolicy) to `no-downgrade`
 - Sets [hoistPattern](https://pnpm.io/settings#hoistpattern) to an empty array, disabling hoisting.
