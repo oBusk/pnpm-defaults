@@ -2,6 +2,8 @@ module.exports = {
   hooks: {
     updateConfig(config) {
       Object.assign(config, {
+        minimumReleaseAge: 4320,
+        trustPolicy: 'no-downgrade',
         ignorePatchFailures: false,
         resolutionMode: 'lowest-direct',
         verifyDepsBeforeRun: 'install',

@@ -4,6 +4,8 @@
 
 ## What it changes
 
+- Sets [minimumReleaseAge](https://pnpm.io/settings#minimumreleaseage) to `4320` (72 hours)
+- Sets [trustPolicy](https://pnpm.io/settings#trustpolicy) to `no-downgrade`
 - Sets [hoistPattern](https://pnpm.io/settings#hoistpattern) to an empty array, disabling hoisting.
 - Sets [ignorePatchFailures](https://pnpm.io/settings#ignorepatchfailures) to `false`.
 - Sets [resolutionMode](https://pnpm.io/settings#resolutionmode) to `lowest-direct`.
