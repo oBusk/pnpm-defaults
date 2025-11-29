@@ -1,5 +1,7 @@
 # @obusk/pnpm-plugin-defaults
 
+[![NPM Version](https://img.shields.io/npm/v/%40obusk%2Fpnpm-plugin-defaults)](https://www.npmjs.com/package/@obusk/pnpm-plugin-defaults) [![Test](https://github.com/oBusk/pnpm-plugin-defaults/actions/workflows/test.yml/badge.svg)](https://github.com/oBusk/pnpm-plugin-defaults/actions/workflows/test.yml) [![Publish Package](https://github.com/oBusk/pnpm-plugin-defaults/actions/workflows/publish.yml/badge.svg)](https://github.com/oBusk/pnpm-plugin-defaults/actions/workflows/publish.yml)
+
 > oBusk defaults for pnpm
 
 ## What it changes
